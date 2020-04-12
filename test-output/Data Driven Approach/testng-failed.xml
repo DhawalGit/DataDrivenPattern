@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Data Driven Approach]">
+  <test thread-count="5" name="testLogin(failed)">
+    <classes>
+      <class name="com.appliedselenium.testscripts.CheckLoginTest">
+        <methods>
+          <include name="testLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.appliedselenium.testscripts.CheckLoginTest -->
+    </classes>
+  </test> <!-- testLogin(failed) -->
+</suite> <!-- Failed suite [Data Driven Approach] -->
