@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Data_Driven_Approach">
-              <span class="suite-name border-skipped">Data Driven Approach</span>
+              <span class="suite-name border-failed">Data Driven Approach</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Data_Driven_Approach" class="hide-methods skipped suite-Data_Driven_Approach"> (hide)</a> <!-- hide-methods skipped suite-Data_Driven_Approach -->
-                      <a href="#" panel-name="suite-Data_Driven_Approach" class="show-methods skipped suite-Data_Driven_Approach"> (show)</a> <!-- show-methods skipped suite-Data_Driven_Approach -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driven_Approach" class="hide-methods failed suite-Data_Driven_Approach"> (hide)</a> <!-- hide-methods failed suite-Data_Driven_Approach -->
+                      <a href="#" panel-name="suite-Data_Driven_Approach" class="show-methods failed suite-Data_Driven_Approach"> (show)</a> <!-- show-methods failed suite-Data_Driven_Approach -->
                     </span>
-                    <div class="method-list-content skipped suite-Data_Driven_Approach">
+                    <div class="method-list-content failed suite-Data_Driven_Approach">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Data_Driven_Approach" title="com.appliedselenium.testscripts.CheckLoginTest" hash-for-method="testLogin">testLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Data_Driven_Approach -->
+                    </div> <!-- method-list-content failed suite-Data_Driven_Approach -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Data_Driven_Approach" class="panel Data_Driven_Approach">
-          <div class="suite-Data_Driven_Approach-class-skipped">
+          <div class="suite-Data_Driven_Approach-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.appliedselenium.testscripts.CheckLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,70 +128,14 @@
                   <a name="testLogin">
                   </a> <!-- testLogin -->
                   <span class="method-name">testLogin</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
-from chrome not reachable
-  (Session info: chrome=80.0.3987.122)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-CJ18TJS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x0024A113+1548563]
-	Ordinal0 [0x001CDDA1+1039777]
-	Ordinal0 [0x0014E32E+516910]
-	Ordinal0 [0x00148012+491538]
-	Ordinal0 [0x001486EB+493291]
-	Ordinal0 [0x00149855+497749]
-	Ordinal0 [0x00145885+481413]
-	Ordinal0 [0x0014F0D0+520400]
-	Ordinal0 [0x000FC030+180272]
-	Ordinal0 [0x000FB59D+177565]
-	Ordinal0 [0x000F95FB+169467]
-	Ordinal0 [0x000E160A+71178]
-	Ordinal0 [0x000E2690+75408]
-	Ordinal0 [0x000E2629+75305]
-	Ordinal0 [0x001E71B7+1143223]
-	GetHandleVerifier [0x002E2B46+507814]
-	GetHandleVerifier [0x002E2864+507076]
-	GetHandleVerifier [0x002E9F47+537511]
-	GetHandleVerifier [0x002E3402+510050]
-	Ordinal0 [0x001DF29C+1110684]
-	Ordinal0 [0x001E938B+1151883]
-	Ordinal0 [0x001E94F3+1152243]
-	Ordinal0 [0x001E83F5+1147893]
-	BaseThreadInitThunk [0x759D6359+25]
-	RtlGetAppContainerNamedObjectPath [0x77A47B74+228]
-	RtlGetAppContainerNamedObjectPath [0x77A47B44+180]
-	(No symbol) [0x00000000]
-
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.appliedselenium.base.TestBase.setUp(TestBase.java:94)
-... Removed 24 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: Login not successful expected [true] but found [false]
+	at com.appliedselenium.testscripts.CheckLoginTest.testLogin(CheckLoginTest.java:35)
+... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Data_Driven_Approach-class-skipped -->
+          </div> <!-- suite-Data_Driven_Approach-class-failed -->
         </div> <!-- panel Data_Driven_Approach -->
         <div panel-name="test-xml-Data_Driven_Approach" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -248,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLogin')
 data.setCell(0, 2, 'com.appliedselenium.testscripts.CheckLoginTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 102655);
 window.suiteTableData['Data_Driven_Approach']= { tableData: data, tableDiv: 'times-div-Data_Driven_Approach'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Data_Driven_Approach">
               </div> <!-- times-div-Data_Driven_Approach -->
             </div> <!-- times-div -->
@@ -281,15 +225,19 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.appliedselenium.testscripts.CheckLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testLogin</span>
-                <span class="method-start">-1583181398274 ms</span>
+                <span class="method-start">20087 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122839 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

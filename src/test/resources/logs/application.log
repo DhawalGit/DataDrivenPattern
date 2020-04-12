@@ -1,2 +1,9 @@
-03/03/2020 02:06:38 devpinoyLogger or.properties file loaded
-03/03/2020 02:06:38 devpinoyLogger config.properties file loaded
+13/04/2020 01:39:21 devpinoyLogger or.properties file loaded
+13/04/2020 01:39:21 devpinoyLogger config.properties file loaded
+13/04/2020 01:39:28 devpinoyLogger Chrome browser launched
+13/04/2020 01:39:37 devpinoyLogger Application launched: https://parabank.parasoft.com/parabank/index.htm
+13/04/2020 01:39:41 devpinoyLogger Inside testLogin()
+13/04/2020 01:39:41 devpinoyLogger user name entered: admin1
+13/04/2020 01:39:41 devpinoyLogger Password entered: admin1
+13/04/2020 01:39:44 devpinoyLogger Log in button clicked
+13/04/2020 01:41:24 devpinoyLogger Browser Closed

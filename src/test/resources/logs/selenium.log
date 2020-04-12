@@ -1,2 +1,9 @@
-02:06:38,299 DEBUG devpinoyLogger:65 - or.properties file loaded
-02:06:38,310 DEBUG devpinoyLogger:84 - config.properties file loaded
+01:39:21,383 DEBUG devpinoyLogger:65 - or.properties file loaded
+01:39:21,383 DEBUG devpinoyLogger:84 - config.properties file loaded
+01:39:28,727 DEBUG devpinoyLogger:95 - Chrome browser launched
+01:39:37,228 DEBUG devpinoyLogger:100 - Application launched: https://parabank.parasoft.com/parabank/index.htm
+01:39:41,463 DEBUG devpinoyLogger:17 - Inside testLogin()
+01:39:41,560 DEBUG devpinoyLogger:23 - user name entered: admin1
+01:39:41,676 DEBUG devpinoyLogger:26 - Password entered: admin1
+01:39:44,021 DEBUG devpinoyLogger:29 - Log in button clicked
+01:41:24,924 DEBUG devpinoyLogger:113 - Browser Closed
